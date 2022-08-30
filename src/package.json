@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build ./Client/client.js --dist-dir ./SnoopyLab0/wwwroot/client",
+    "start": "parcel watch ./Client/client.js --dist-dir ./SnoopyLab0/wwwroot/client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.7.0",
+    "bootswatch": "^5.2.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "vue": "^3.2.37"
+  }
+}
